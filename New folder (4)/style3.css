@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  }
+  .container
+  {
+  height: 100vh;
+  width:  100%;
+  object-fit: fill;
+  background-position: center;
+  background-size: center;
+
+  }
+  nav
+  {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  }
+  .Logo
+  {
+  color: aliceblue;
+  font-size: 35px;
+  cursor: pointer;
+  }
+  span
+  {
+  color: rgba(3, 52, 169, 0.62);
+  }
+  nav ul li
+  {
+  list-style-type:none;
+  display: inline-block;
+  padding: 10px 20px;
+  }
+  nav ul li a
+  {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  }
+  nav ul li a:hover
+  {
+  color: rgba(3, 52, 169, 0.62);
+  transition: 0.3s;
+  }
+  nav
+   { background-color: rgb(2, 94, 94);
+
+  }
+  button
+  {
+  text-decoration: none;
+  border: none;
+  background: rgba(74, 148, 13, 0.62);
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: .4s;
+  }
+  button:hover
+  {
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(154, 142, 30, 0.62) ;
+  transition: .4s;
+  transform: scale(1.1);
+  cursor: pointer;
+  }
+
+
+input[type=password] {
+  width: 25%;
+  background-color: #fff;
+  color: rgb(15, 13, 13);
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid rgb(19, 18, 18);
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: static;
+  box-sizing: border-box;
+  border: 1px solid rgb(19, 18, 18);
+  border-radius: 4px;
+  
+ 
+}
+h2{
+  font-family: "Times New Roman", Times, serif;
+}
+
+input[type=Email] {
+  width: 25%;
+  background-color: #fff;
+  color: rgb(15, 13, 13);
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid rgb(19, 18, 18);
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: static;
+  box-sizing: border-box;
+  border: 1px solid rgb(19, 18, 18);
+  border-radius: 4px;
+
+}
+input[type=button] {
+  width: 25%;
+  background-color: #af744c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.center h1{
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid silver;
+}
